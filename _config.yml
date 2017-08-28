@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: 852123616@qq.com
 description: "我是蒙古海军司令"
 keyword: "蒙古海军司令"
-url: "http://zhuzhao.top/"              # your host, for absolute URL
-baseurl: "http://zhuzhao.top/"                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://zhuzhao.top"              # your host, for absolute URL
+baseurl: "http://zhuzhao.top"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
