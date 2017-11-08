@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "只有一个key和一个value的Dict直接转化成DataFrame报错的解决办法"
+subtitle:   " \"DICT,DataFrame\""
+date:       2017-08-29 12:00:00
+author:     "Zhuzhao"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - python
+---
+
+
+# Dict  转换成DataFrame
+
+只有一个key和一个value的字典直接转化成DataFrame 会报错。
+
+比如，列出班里所有同学的名字，就可以用一个list表示：
+
+```
+1 >>> my_dict = {'i':1,'fuck':2,'you':3}
+2 >>> my_dict
+3 {'i': 1, 'fuck': 2, 'you': 3}
+```
+
+```
+import pandas as pd
+pd.Series(my_dict)
+fuck    2
+i       1
+you     3
+dtype: int64
+```
+
+```
+1 pd.DataFrame(my_dict)
+2 ValueError: If using all scalar values, you must pass an index
+```
+报错
+```
+ValueError: If using all scalar values, you must pass an index
+```
+应该做如下转换：
+
+```
+c1 pd.DataFrame.from_dict(my_dict,orient='index').T
+
+```
+
