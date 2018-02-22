@@ -12,11 +12,11 @@ baseurl: "http://zhuzhao.top"                             # for example, '/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+#weibo_username:     
+#zhihu_username:     
+#github_username:    
 #twitter_username:  huxpro
-facebook_username:  huxpro
+#facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
 
 
