@@ -1,0 +1,64 @@
+---
+layout:     post
+title:      "如何使用vscode编写markdown"
+subtitle:   " \"使用vscode编写markdown\""
+date:       2019-06-26 12:00:00
+author:     "Zhuzhao"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - markdown
+---
+
+
+
+# vscode
+
+<blockquote>
+vscode是一款非常轻量级的编辑器，你可以通过安装甚至自己编写一些小的插件来满足各种不同的使用需求，使用起来非常简介方便。
+vscode 官方网站（无需翻墙）：https://code.visualstudio.com/
+vscode 下载链接：https://code.visualstudio.com/Download
+</blockquote>
+
+
+# Markdown
+
+<blockquote>
+<p>Markdown是一种轻量级标记语言，它以纯文本形式(易读、易写、易更改)编写文档，并最终以HTML格式发布。<br>
+Markdown也可以理解为将以MARKDOWN语法编写的语言转换成HTML内容的工具。</p>
+</blockquote>
+
+
+markdown的好处在于：
+<blockquote>
+<ul>
+<li>它是易读（看起来舒服）、易写（语法简单）、易更改纯文本。处处体现着极简主义的影子</li>
+<li>兼容HTML，可以转换为HTML格式发布</li>
+<li>跨平台使用</li>
+<li>越来越多的网站支持Markdown</li>
+<li>更方便清晰地组织你的电子邮件</li>
+</ul>
+</blockquote>
+
+
+markdown 的中文文档：https://markdown-zh.readthedocs.io/en/latest/
+
+
+
+# vscode使用插件Markdown Preview Enhanced
+Markdown Preview Enhanced是一个很好用的完善预览功能的插件，可以更加形象的展示所编写的pdf格式的文档样式。在插件库中搜索markdown即可找到该插件，然后点击安装后重新加载。
+
+![image](https://raw.githubusercontent.com/zhuzhao/zhuzhao.github.io/master/imgs/6966151-870bb6a8ba4978ab.webp.jpg)
+
+先选择当前页面的语言模式，选择Markdown ，可能会有2个，一个是vscode默认的，一个是Markdown Preview Enhanced插件，选择插件
+
+![image](https://raw.githubusercontent.com/zhuzhao/zhuzhao.github.io/master/imgs/QQ%E5%9B%BE%E7%89%8720190626095242.png)
+
+
+
+你会发现工作区的右上角多了一个预览按钮，这个按钮就是Markdown Preview Enhanced插件产生的，尝试点击之后看到更加接近pdf文件格式的预览效果。
+
+![image](https://raw.githubusercontent.com/zhuzhao/zhuzhao.github.io/master/imgs/6966151-1ec2bd6c58e4970d.webp.jpg)
+
+
+就这么简单！
